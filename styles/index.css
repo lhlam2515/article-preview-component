@@ -44,7 +44,7 @@ body {
 
 .preview-card__content {
   display: flex;
-  padding: var(--spacing-500) var(--spacing-300) var(--spacing-300);
+  padding: var(--spacing-500) var(--spacing-300) var(--spacing-200);
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-200);
