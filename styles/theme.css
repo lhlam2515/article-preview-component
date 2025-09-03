@@ -7,7 +7,7 @@
   --color-grey-900: hsl(217, 19%, 35%);
 
   --text-preset-1: 700 1.5rem/1.2 var(--font-family);
-  --text-preset-2: 700 0.8125/1.5 var(--font-family);
+  --text-preset-2: 700 0.875rem/1.5 var(--font-family);
   --text-preset-3: 500 0.875rem/1.5 var(--font-family);
 
   --spacing-100: 0.5rem;
