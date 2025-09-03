@@ -1,0 +1,18 @@
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --color-grey-100: hsl(210, 46%, 95%);
+  --color-grey-300: hsl(212, 23%, 69%);
+  --color-grey-600: hsl(214, 17%, 51%);
+  --color-grey-900: hsl(217, 19%, 35%);
+
+  --text-preset-1: 700 1.5rem/1.2 var(--font-family);
+  --text-preset-2: 700 0.8125/1.5 var(--font-family);
+  --text-preset-3: 500 0.875rem/1.5 var(--font-family);
+
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-500: 2.5rem;
+}
