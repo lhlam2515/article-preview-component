@@ -1,35 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | Article preview component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="./styles/index.css">
-</head>
-<body>
+    <title>Frontend Mentor | Article preview component</title>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="preview-card">
+        <img
+          src="./images/drawers.jpg"
+          alt="A green drawer"
+          class="preview-card__image"
+        />
+        <div class="preview-card__content">
+          <h3 class="preview-card__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p class="preview-card__text">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="preview-card__footer">
+          <div class="preview-card__author">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="Michelle avatar"
+              width="24"
+              height="24"
+            />
+            <div class="preview-card__author-info">
+              <p>Michelle Appleton</p>
+              <time datetime="2020-06-28">28 Jun 2020</time>
+            </div>
+          </div>
+          <button class="share-button" aria-label="Share article">
+            <img src="./images/icon-share.svg" alt="" />
+          </button>
+        </div>
+        <div class="preview-card__share-bar hidden">
+          <div class="preview-card__share-menu">
+            <p aria-label="Share this article">Share</p>
+            <a href="#" aria-label="Share on Facebook"
+              ><img src="./images/icon-facebook.svg" alt="Facebook logo"
+            /></a>
+            <a href="#" aria-label="Share on Twitter"
+              ><img src="./images/icon-twitter.svg" alt="Twitter logo"
+            /></a>
+            <a href="#" aria-label="Share on Pinterest"
+              ><img src="./images/icon-pinterest.svg" alt="Pinterest logo"
+            /></a>
+          </div>
+          <button class="share-button" aria-label="Share article">
+            <img src="./images/icon-share.svg" alt="" />
+          </button>
+        </div>
+      </article>
+    </main>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/lhlam2515">lhlam2515</a>.
-  </div>
-</body>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/lhlam2515">lhlam2515</a>.
+    </div> -->
+  </body>
 </html>
