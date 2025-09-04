@@ -144,3 +144,51 @@ body {
     filter: brightness(3);
   }
 }
+
+@media (min-width: 48rem) {
+  .preview-card {
+    max-width: 54rem;
+    flex-direction: row;
+  }
+
+  .preview-card__image {
+    flex: 1;
+    overflow: hidden;
+    align-self: stretch;
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+
+  .preview-card__content {
+    flex: 1.5;
+    padding: var(--spacing-500);
+  }
+
+  .preview-card__footer {
+    margin-top: var(--spacing-100);
+  }
+
+  .preview-card__share-bar {
+    bottom: 6.5rem;
+    right: -3.85rem;
+    width: fit-content;
+    padding: var(--spacing-200) var(--spacing-400);
+    border-radius: 0.75rem;
+  }
+
+  .preview-card__share-bar .share-button {
+    display: none;
+  }
+
+  .preview-card__share-bar::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -0.75rem;
+    width: 0;
+    height: 0;
+    transform: translateX(-50%);
+    border-left: 0.75rem solid transparent;
+    border-right: 0.75rem solid transparent;
+    border-top: 0.75rem solid var(--color-grey-900);
+  }
+}
