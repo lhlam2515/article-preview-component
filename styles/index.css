@@ -138,10 +138,9 @@ body {
   letter-spacing: 0.3rem;
 }
 
-.preview-card__share-bar .share-button {
+.active {
   background-color: var(--color-grey-600);
-}
-
-.preview-card__share-bar .share-button img {
-  filter: brightness(3);
+  img {
+    filter: brightness(3);
+  }
 }

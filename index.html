@@ -20,6 +20,7 @@
     <title>Frontend Mentor | Article preview component</title>
 
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./scripts/index.js" defer></script>
   </head>
   <body>
     <main class="container">
@@ -47,12 +48,16 @@
                 <time datetime="2020-06-28">28 Jun 2020</time>
               </div>
             </div>
-            <button class="share-button" aria-label="Share article">
+            <button
+              class="share-button"
+              id="share-button"
+              aria-label="Share article"
+            >
               <img src="./images/icon-share.svg" alt="" />
             </button>
           </div>
         </div>
-        <div class="preview-card__share-bar hidden">
+        <div class="preview-card__share-bar hidden" id="share-bar">
           <div class="preview-card__share-menu">
             <p aria-label="Share this article">Share</p>
             <a href="#" aria-label="Share on Facebook"
@@ -65,7 +70,7 @@
               ><img src="./images/icon-pinterest.svg" alt="Pinterest logo"
             /></a>
           </div>
-          <button class="share-button" aria-label="Share article">
+          <button class="share-button active" aria-label="Share article">
             <img src="./images/icon-share.svg" alt="" />
           </button>
         </div>
